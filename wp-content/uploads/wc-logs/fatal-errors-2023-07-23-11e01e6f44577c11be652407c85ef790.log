@@ -1,0 +1,2 @@
+2023-07-23T13:58:13+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 110
+
