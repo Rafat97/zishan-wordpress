@@ -4,3 +4,15 @@ API response: Reconnect to your Pinterest account
 2023-07-23T05:56:38+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
 Status Code: 401
 API response: Reconnect to your Pinterest account
+2023-07-23T13:32:28+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 401
+API response: Reconnect to your Pinterest account
+2023-07-23T13:32:31+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 1
+API response: cURL error 28: SSL connection timeout
+2023-07-23T13:35:48+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 1
+API response: cURL error 28: SSL connection timeout
+2023-07-23T13:36:31+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 1
+API response: cURL error 28: SSL connection timeout
