@@ -34,12 +34,9 @@ add_action('elementor/elements/categories_registered', 'add_elementor_widget_cat
 
 function register_list_widget($widgets_manager)
 {
-
-    require_once(__DIR__ . '/widgets/list-widget.php');
     require_once(__DIR__ . '/widgets/oembed-widget.php');
 
     $widgets_manager->register(new \Elementor_oEmbed_Widget());
-    $widgets_manager->register(new \Elementor_List_Widget());
 }
 
 add_action('elementor/widgets/register', 'register_list_widget');
