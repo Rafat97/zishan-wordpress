@@ -1,0 +1,82 @@
+2023-07-29T06:57:55+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 110
+
+2023-07-29T07:12:38+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 36864 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 310
+
+2023-07-29T07:27:46+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 213
+
+2023-07-29T07:37:30+00:00 CRITICAL Out of memory (allocated 142606336 bytes) (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\API\Plugins.php on line 179
+
+2023-07-29T07:43:12+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 36864 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 310
+
+2023-07-29T07:57:59+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 36864 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 310
+
+2023-07-29T08:12:55+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 110
+
+2023-07-29T08:29:02+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 110
+
+2023-07-29T08:42:35+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 36864 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 310
+
+2023-07-29T09:00:22+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 36864 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 310
+
+2023-07-29T09:12:37+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 36864 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 310
+
+2023-07-29T09:27:23+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=5199#!trpen#Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-business\add-ons-pro\deepl\includes\class-deepl-machine-translator.php:189
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-machine-translator.php(85): TRP_IN_Deepl_Machine_Translator->check_formality()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-machine-translator.php(53): TRP_Machine_Translator->check_languages_availability(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\gettext\class-process-gettext.php(178): TRP_Machine_Translator->is_available(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\gettext\class-process-gettext.php(371): TRP_Process_Gettext->process_gettext_strings('Gy\xC5\x91r-Moson-Sop...', 'Gy\xC5\x91r-Moson-Sop...', 'woocommerce')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): TRP_Process_Gettext->woocommerce_process_gettext_strings_no_context('Gy\xC5\x91r-Moson-Sop...', 'Gy\xC5\x91r-Moson-Sop...', 'woocommerce')
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('Gy\xC5\x91r-Moson-Sop...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\l10n.php(199): apply_filters('gettext', 'Gy\xC5\x91r-Moson-Sop...', 'Gy\xC5\x91r-Moson-Sop...', 'woocommerce')
+#7 C:\xampp\htdocs\wordpress\wp-includes\l10n.php(299): translate('Gy\xC5\x91r-Moson-Sop...', 'woocommerce')
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\i18n\states.php(702): __('Gy\xC5\x91r-Moson-Sop...', 'woocommerce')
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-countries.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-countries.php(50): WC_Countries->get_states()
+#11 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-countries.php(355): WC_Countries->__get('states')
+#12 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-frontend-scripts.php(596): WC_Countries->get_allowed_country_states()
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-frontend-scripts.php(465): WC_Frontend_Scripts::get_script_data('wc-country-sele...')
+#14 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-frontend-scripts.php(632): WC_Frontend_Scripts::localize_script('wc-country-sele...')
+#15 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): WC_Frontend_Scripts::localize_printed_scripts('')
+#16 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#17 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\xampp\htdocs\wordpress\wp-includes\script-loader.php(2146): do_action('wp_print_script...')
+#19 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): wp_print_head_scripts('')
+#20 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#21 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#22 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3049): do_action('wp_head')
+#23 C:\xampp\htdocs\wordpress\wp-content\themes\porto\header.php(14): wp_head()
+#24 C:\xampp\htdocs\wordpress\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\wordpress\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#26 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#27 C:\xampp\htdocs\wordpress\wp-content\themes\porto\page.php(1): get_header()
+#28 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#29 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#30 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#31 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-business\add-ons-pro\deepl\includes\class-deepl-machine-translator.php on line 189#!trpst#/trp-gettext#!trpen#
+
+2023-07-29T09:27:36+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 36864 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 310
+
+2023-07-29T09:28:10+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=5200#!trpen#Maximum execution time of 1200 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\src\Transport\Curl.php on line 510#!trpst#/trp-gettext#!trpen#
+
+2023-07-29T09:32:19+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=5201#!trpen#Maximum execution time of 1200 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\src\Transport\Curl.php on line 510#!trpst#/trp-gettext#!trpen#
+
+2023-07-29T09:34:05+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=5202#!trpen#Maximum execution time of 1200 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\src\Transport\Curl.php on line 510#!trpst#/trp-gettext#!trpen#
+
+2023-07-29T09:43:41+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 110
+
+2023-07-29T09:55:42+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=5202#!trpen#Maximum execution time of 1200 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\src\Transport\Curl.php on line 510#!trpst#/trp-gettext#!trpen#
+
+2023-07-29T09:55:48+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=5202#!trpen#Maximum execution time of 1200 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\src\Transport\Curl.php on line 510#!trpst#/trp-gettext#!trpen#
+
+2023-07-29T10:27:41+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 36864 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 310
+
+2023-07-29T10:42:36+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 213
+
+2023-07-29T10:57:36+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 36864 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 310
+
+2023-07-29T11:12:45+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 110
+
+2023-07-29T11:13:54+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 36864 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\porto-functionality\builders\elements\type\views\featured-image.php on line 310
+
