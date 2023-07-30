@@ -16,3 +16,10 @@ Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, 
 .custom-elementor-wrapper > div {
   display: block !important;
 }
+
+.order-info .order-item {
+  width: 25%;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+}
